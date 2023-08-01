@@ -7,6 +7,7 @@ public class Box extends Property {
         this.parking = parking;
     }
 
+
     @Override
     public String toString() {
         return super.toString() + ", Parking Spaces: " + parking;
