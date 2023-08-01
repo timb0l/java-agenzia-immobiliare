@@ -22,7 +22,7 @@ public class RealEstateAgency {
         villa.addInterestedPeople();
         villa.addInterestedPeople();
 
-        Property propertyFound = agency.findPropertyByCode("VILLA001");
+        Property propertyFound = agency.findPropertyByCode("V1LL4");
         if (propertyFound != null) {
             System.out.println("Property found: " + propertyFound);
         } else {
